@@ -95,7 +95,6 @@ const CreateCoursePage = () => {
         alert('Failed to generate quiz.');
       }
     } catch (error) {
-      console.error('Error generating quiz:', error);
       alert('Error generating quiz.');
     } finally {
       setIsGenerating(false);
